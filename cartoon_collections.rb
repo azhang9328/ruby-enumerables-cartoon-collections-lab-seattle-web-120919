@@ -14,12 +14,9 @@ end
 
 def long_planeteer_calls(calls_long)
   calls_long.map do |call_long|
-    puts calls_long
-    if calls_long.bytesize > 4 
-      break if true 
-    end
+  puts call_long.bytesize
   end
-  false 
+
 end
 
 def find_the_cheese# code an argument here
