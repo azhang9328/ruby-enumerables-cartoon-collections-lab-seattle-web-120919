@@ -1,6 +1,6 @@
 def roll_call_dwarves(dwarves)
   dwarves.map do |dwarves|
-    puts 
+    puts dwarves
   end   
 end
 
