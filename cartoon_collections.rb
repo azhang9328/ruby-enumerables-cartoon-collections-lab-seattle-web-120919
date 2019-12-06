@@ -26,7 +26,7 @@ def find_the_cheese(contains_cheddar)
   cheese_types = ["cheddar", "gouda", "camembert"]
   contains_cheddar.map do |contains_cheddar|
     puts contains_cheddar + "outer"
-  i = 0 
+    i = 0 
     cheese_types.map do |cheese_types|
       puts cheese_types
       puts contains_cheddar + "inner"
@@ -36,4 +36,5 @@ def find_the_cheese(contains_cheddar)
       i += 1
     end 
   end   
+  return nil
 end
