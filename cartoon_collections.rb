@@ -24,7 +24,7 @@ end
 
 def find_the_cheese(countains_cheddar)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  if countains_cheddar.include?("cheddar")
+  if countains_cheddar.include?(cheese_types)
     puts "here"
     puts countains_cheddar
   end 
