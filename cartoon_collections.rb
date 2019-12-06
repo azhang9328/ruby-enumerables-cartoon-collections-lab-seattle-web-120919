@@ -13,7 +13,8 @@ def summon_captain_planet(veggies)
 end
 
 def long_planeteer_calls(calls_long)
-  calls_long.reduce() do 
+  calls_long.reduce() do
+    
     
   end 
 end
