@@ -16,7 +16,7 @@ def long_planeteer_calls(calls_long)
   calls_long.map do |calls_long|
   puts calls_long.bytesize
     if calls_long.bytesize > 4
-      true 
+      break if true 
     end   
   end
 false
