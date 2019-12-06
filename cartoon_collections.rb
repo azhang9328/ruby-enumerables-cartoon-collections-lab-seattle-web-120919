@@ -13,7 +13,7 @@ def summon_captain_planet(veggies)
 end
 
 def long_planeteer_calls(calls_long)
-  calls_long.reduce(nil) do |total, word|
+  calls_long.reduce(total = nil) do |total, word|
     
     
   end 
