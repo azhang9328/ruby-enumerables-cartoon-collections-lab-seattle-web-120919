@@ -14,7 +14,7 @@ end
 
 def long_planeteer_calls(calls_long)
   calls_long.reduce(longwords = false) do |total, word|
-    total + word
+    
   end 
 end
 
