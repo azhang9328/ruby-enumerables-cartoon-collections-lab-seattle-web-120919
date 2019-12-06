@@ -22,7 +22,6 @@ def long_planeteer_calls(calls_long)
   return false
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+def find_the_cheese(countains_cheddar)
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
