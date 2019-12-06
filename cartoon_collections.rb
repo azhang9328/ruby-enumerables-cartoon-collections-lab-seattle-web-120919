@@ -28,6 +28,7 @@ def find_the_cheese(countains_cheddar)
     if countains_cheddar.include?(cheese_types)
       countains_cheddar.map do |countains_cheddar|
         if countains_cheddar == cheese_types
+          puts countains_cheddar
           return countains_cheddar
         end   
       end   
