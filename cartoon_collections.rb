@@ -14,7 +14,7 @@ end
 
 def long_planeteer_calls(calls_long)
   calls_long.reduce(total = nil) do |total, word|
-    if calls_long
+    if calls_long.length > 4
     
   end 
 end
