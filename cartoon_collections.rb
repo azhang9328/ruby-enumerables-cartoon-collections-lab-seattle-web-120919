@@ -24,4 +24,7 @@ end
 
 def find_the_cheese(countains_cheddar)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  contains_cheddar.map do 
+    
+  end   
 end
