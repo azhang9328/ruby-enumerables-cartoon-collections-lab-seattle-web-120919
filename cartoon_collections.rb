@@ -1,6 +1,8 @@
 def roll_call_dwarves(dwarves)
+  n = 1
   dwarves.map do |dwarves|
-    puts "[]#{dwarves}"
+    puts "#{n}. #{dwarves}"
+    n += 1
   end   
 end
 
